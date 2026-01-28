@@ -1,5 +1,6 @@
 import express from 'express';
 import cors from 'cors';
+require("dotenv").config();
 import { detectDirtyData } from './detection.js';
 import { applyLocalRules } from './rules.js';
 import { healWithAI } from './ai-healing.js';
