@@ -1,0 +1,28 @@
+You are a senior software architect.
+
+Design a production-ready architecture for an AI-powered Self-Healing Data Quality Platform.
+
+Tech stack:
+- Python 3.11
+- FastAPI
+- Pandas
+- Scikit-learn
+- OpenRouter API (LLM reasoning layer)
+- React + Tailwind frontend
+
+The system must:
+- Accept CSV, JSON, Excel datasets
+- Profile dataset
+- Detect anomalies
+- Generate AI-powered healing plan
+- Apply healing automatically
+- Score data quality (0-100)
+- Show before vs after comparison
+- Provide visual dashboard metrics
+- Be modular and industry scalable
+
+Return:
+1. Folder structure
+2. Module responsibility explanation
+3. High-level data flow
+

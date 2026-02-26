@@ -1,0 +1,79 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+ENV/
+.env.local
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ── Environment / secrets ─────────────────────────────────────────────────────
+.env
+!.env.example
+
+# ── Node / Frontend ───────────────────────────────────────────────────────────
+node_modules/
+frontend/dist/
+frontend/build/
+frontend/.vite/
+*.local
+.eslintcache
+
+# ── Database migrations (keep structure, ignore local state) ──────────────────
+# Uncomment if you don't want to track migration files:
+# backend/alembic/versions/
+
+# ── Storage / uploads ─────────────────────────────────────────────────────────
+backend/uploads/
+backend/data/
+*.csv
+*.xlsx
+*.xls
+*.parquet
+
+# ── Logs ─────────────────────────────────────────────────────────────────────
+*.log
+logs/
+celerybeat-schedule
+celerybeat.pid
+
+# ── Docker ────────────────────────────────────────────────────────────────────
+# Keep docker-compose.yml and Dockerfiles tracked
+
+# ── Testing / coverage ────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+coverage.xml
+*.cover
+
+# ── macOS ─────────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# ── IDEs ──────────────────────────────────────────────────────────────────────
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+
+# ── Misc ──────────────────────────────────────────────────────────────────────
+*.bak
+*.tmp
+.cache/
